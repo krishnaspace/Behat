@@ -23,7 +23,8 @@ framework:
         engines: [twig]
     profiler:
         enabled: %kernel.debug%
-    session: ~
+    session:
+        save_path: '/tmp'
 
 doctrine:
     dbal:

@@ -1,11 +1,6 @@
-# BDD, Behat, Mink and other Wonderful ThingsRESTing with Symfony
-
-Well hi there! This repository holds the code and script
-for the [Behat PHP course on KnpUniversity](https://knpuniversity.com/screencast/behat).
+# BDD, Behat, Mink Selenium with Symfony
 
 ## Setup the Project
-
-Ok, cool - this will be easy!
 
 1. Make sure you have [Composer installed](https://getcomposer.org/).
 
@@ -48,4 +43,3 @@ You can login with:
 user: admin
 pass: admin
 
-Have fun!
