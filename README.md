@@ -1,4 +1,4 @@
-# BDD, Behat, Mink Selenium with Symfony
+# BDD, Behat, Mink and Selenium with Symfony
 
 ## Setup the Project
 
