@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+    php:
+        build:
+            context: php7-fpm
+            args:
+                TIMEZONE: Asia/Singapore
+        volumes:
+            - C:/Users/Krishnamoorthy/Documents/PHP/Tutorial/Behat:/var/www/behat
+    nginx:
+        build: nginx
+        ports:
+            - 10015:80
+        volumes_from:
+            - php
